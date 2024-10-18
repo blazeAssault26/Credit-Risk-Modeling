@@ -48,9 +48,9 @@ After cleaning the data and selecting relevant features, the focus was on catego
 - **Train accuracy**: 81%
 - **Test accuracy**: 78%
 
-<p style="display: flex; justify-content: space-between;">
-  <img style="width: 49%; height: auto;" alt="i3" src="https://github.com/user-attachments/assets/b31bde9b-32de-4645-bb3e-8f0414bd037e" />
-  <img style="width: 49%; height: auto;" alt="i4" src="https://github.com/user-attachments/assets/81029296-5824-45a5-8f13-3260511b250e" />
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/b31bde9b-32de-4645-bb3e-8f0414bd037e" width="49%" />
+  <img src="https://github.com/user-attachments/assets/81029296-5824-45a5-8f13-3260511b250e" width="49%" />
 </p>
 
 ---
@@ -64,9 +64,9 @@ After cleaning the data and selecting relevant features, the focus was on catego
 
 ## Addressing Class P3 Ambiguity
 
-<p style="display: flex; justify-content: space-between;">
-  <img style="width: 49%; height: auto;" alt="i5" src="https://github.com/user-attachments/assets/692b37ab-11a4-4ad1-954b-650bf73ebaa5" />
-  <img style="width: 49%; height: auto;" alt="i6" src="https://github.com/user-attachments/assets/bee49c7c-6fed-408b-9af9-5aded081e06c" />
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/692b37ab-11a4-4ad1-954b-650bf73ebaa5" width="49%"/>
+  <img src="https://github.com/user-attachments/assets/bee49c7c-6fed-408b-9af9-5aded081e06c" width="49%"/>
 </p>
 
 - **P3 Credit Score Range**: Spans from **489 to 776**, much broader than other classes (P1, P2, P4), affecting classification accuracy.
