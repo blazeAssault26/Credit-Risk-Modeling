@@ -1,7 +1,3 @@
-# Risk Modeling Project
-
----
-
 ## Understanding the Problem: What Is Credit Risk?
 
 Credit risk is the possibility of borrowers not repaying loans on time, which is monitored through **Days Past Due (DPD)**. Loans overdue beyond a certain threshold, such as **90 days**, become **Non-Performing Assets (NPAs)**, posing a heightened default risk. **Portfolio at Risk (PAR)** measures the **Outstanding Principal (OSP)** of overdue loans, helping banks manage loan portfolio health.
@@ -32,7 +28,7 @@ The primary goal of this project is to create a predictive model that can:
 
 ## Handling Missing Data
 
-![Handling Missing Data](path_to_image_1)
+![Handling Missing Data](<img width="582" alt="i1" src="https://github.com/user-attachments/assets/f5b3bd8b-2624-42c9-a32b-3ce8a0c4b0e7">)
 
 One major challenge was **missing data**, common in financial datasets due to data entry errors or unreported information. For instance, the CIBIL dataset had 35k missing values for the delinquency column (`max_del`), accounting for 70% of the data. Instead of imputing, this column was removed to avoid bias. Columns with more than **10,000 missing values** (represented by `-99999`) were similarly removed. This ensured that 70-80% of the data was retained, maintaining model reliability.
 
@@ -53,8 +49,8 @@ After cleaning the data and selecting relevant features, the focus was on catego
 - **Test accuracy**: 78%
 
 <p float="left">
-  <img src="path_to_image_3" width="49%" />
-  <img src="path_to_image_4" width="49%" />
+  <img src="<img width="230" alt="i3" src="https://github.com/user-attachments/assets/b31bde9b-32de-4645-bb3e-8f0414bd037e">  " width="49%" />
+  <img src="<img width="254" alt="i4" src="https://github.com/user-attachments/assets/b1fb27f7-ce35-4c1d-b6c7-66697686c868">" width="49%" />
 </p>
 
 ---
@@ -69,8 +65,8 @@ After cleaning the data and selecting relevant features, the focus was on catego
 ## Addressing Class P3 Ambiguity
 
 <p float="left">
-  <img src="path_to_image_5" width="49%" />
-  <img src="path_to_image_6" width="49%" />
+  <img src="<img width="270" alt="i5" src="https://github.com/user-attachments/assets/02a2735c-5052-464c-ad91-94d8d1a0de0f"> " width="49%" />
+  <img src="<img width="266" alt="i6" src="https://github.com/user-attachments/assets/59cf9835-c656-4556-87af-4ca773cb6e28">" width="49%" />
 </p>
 
 - **P3 Credit Score Range**: Spans from **489 to 776**, much broader than other classes (P1, P2, P4), affecting classification accuracy.
