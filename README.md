@@ -65,8 +65,9 @@ After cleaning the data and selecting relevant features, the focus was on catego
 ## Addressing Class P3 Ambiguity
 
 <p float="left">
-  <img src="<img width="270" alt="i5" src="https://github.com/user-attachments/assets/02a2735c-5052-464c-ad91-94d8d1a0de0f"> " width="49%" />
-  <img src="<img width="266" alt="i6" src="https://github.com/user-attachments/assets/59cf9835-c656-4556-87af-4ca773cb6e28">" width="49%" />
+  <img width="266" alt="i6" src="https://github.com/user-attachments/assets/bee49c7c-6fed-408b-9af9-5aded081e06c">
+ " width="49%" />
+  <img width="266" alt="i6" src="https://github.com/user-attachments/assets/bee49c7c-6fed-408b-9af9-5aded081e06c">" width="49%" />
 </p>
 
 - **P3 Credit Score Range**: Spans from **489 to 776**, much broader than other classes (P1, P2, P4), affecting classification accuracy.
