@@ -38,7 +38,7 @@ One major challenge was **missing data**, common in financial datasets due to da
 
 ## Feature Engineering and Selection
 
-- **Chi-Square Test**: All categorical features were retained since p-values ≤ 0.05, indicating a statistically significant relationship with the the target variable.
+- **Chi-Square Test**: All categorical features were retained since p-values ≤ 0.05, indicating a statistically significant relationship with the target variable.
 - **Variance Inflation Factor (VIF)**: Removed numerical features with VIF > 6 to reduce multicollinearity, reducing the feature set from **72 to 39**.
 - **ANOVA**: Applied to remaining numerical features, retaining those with p-values ≤ 0.05, resulting in **37 statistically significant predictors** for the approved .
 
