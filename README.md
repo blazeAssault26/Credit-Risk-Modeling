@@ -65,7 +65,7 @@ After cleaning the data and selecting relevant features, the focus was on catego
 ## Addressing Class P3 Ambiguity
 
 <p float="left">
-  <img width="49%" alt="i6" src="https://github.com/user-attachments/assets/bee49c7c-6fed-408b-9af9-5aded081e06c" />
+  <img width="49%" alt="i5" src="https://github.com/user-attachments/assets/692b37ab-11a4-4ad1-954b-650bf73ebaa5" />
   <img width="49%" alt="i6" src="https://github.com/user-attachments/assets/bee49c7c-6fed-408b-9af9-5aded081e06c" />
 </p>
 
