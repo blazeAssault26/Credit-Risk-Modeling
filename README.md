@@ -28,7 +28,9 @@ The primary goal of this project is to create a predictive model that can:
 
 ## Handling Missing Data
 
-<img width="440" alt="i1" src="https://github.com/user-attachments/assets/2626c4e9-b219-4b62-a2a9-5da3aab398d7" style="display: block; margin: 0 auto;" />
+<div style="text-align: center;">
+  <img width="600" alt="i1" src="https://github.com/user-attachments/assets/2626c4e9-b219-4b62-a2a9-5da3aab398d7" />
+</div>
 
 One major challenge was **missing data**, common in financial datasets due to data entry errors or unreported information. For instance, the CIBIL dataset had 35k missing values for the delinquency column (`max_del`), accounting for 70% of the data. Instead of imputing, this column was removed to avoid bias. Columns with more than **10,000 missing values** (represented by `-99999`) were similarly removed. This ensured that 70-80% of the data was retained, maintaining model reliability.
 
@@ -48,9 +50,9 @@ After cleaning the data and selecting relevant features, the focus was on catego
 - **Train accuracy**: 81%
 - **Test accuracy**: 78%
 
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/b31bde9b-32de-4645-bb3e-8f0414bd037e" width="49%" />
-  <img src="https://github.com/user-attachments/assets/81029296-5824-45a5-8f13-3260511b250e" width="49%" />
+<p style="display: flex; justify-content: space-between;">
+  <img style="width: 300px; height: 200px;" alt="i3" src="https://github.com/user-attachments/assets/b31bde9b-32de-4645-bb3e-8f0414bd037e" />
+  <img style="width: 300px; height: 200px;" alt="i4" src="https://github.com/user-attachments/assets/81029296-5824-45a5-8f13-3260511b250e" />
 </p>
 
 ---
@@ -64,9 +66,9 @@ After cleaning the data and selecting relevant features, the focus was on catego
 
 ## Addressing Class P3 Ambiguity
 
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/692b37ab-11a4-4ad1-954b-650bf73ebaa5" width="49%"/>
-  <img src="https://github.com/user-attachments/assets/bee49c7c-6fed-408b-9af9-5aded081e06c" width="49%"/>
+<p style="display: flex; justify-content: space-between;">
+  <img style="width: 300px; height: 200px;" alt="i5" src="https://github.com/user-attachments/assets/692b37ab-11a4-4ad1-954b-650bf73ebaa5" />
+  <img style="width: 300px; height: 200px;" alt="i6" src="https://github.com/user-attachments/assets/bee49c7c-6fed-408b-9af9-5aded081e06c" />
 </p>
 
 - **P3 Credit Score Range**: Spans from **489 to 776**, much broader than other classes (P1, P2, P4), affecting classification accuracy.
