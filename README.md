@@ -65,10 +65,10 @@ After cleaning the data and selecting relevant features, the focus was on catego
 ## Addressing Class P3 Ambiguity
 
 <p float="left">
-  <img width="266" alt="i6" src="https://github.com/user-attachments/assets/bee49c7c-6fed-408b-9af9-5aded081e06c">
- " width="49%" />
-  <img width="266" alt="i6" src="https://github.com/user-attachments/assets/bee49c7c-6fed-408b-9af9-5aded081e06c">" width="49%" />
+  <img width="49%" alt="i6" src="https://github.com/user-attachments/assets/bee49c7c-6fed-408b-9af9-5aded081e06c" />
+  <img width="49%" alt="i6" src="https://github.com/user-attachments/assets/bee49c7c-6fed-408b-9af9-5aded081e06c" />
 </p>
+
 
 - **P3 Credit Score Range**: Spans from **489 to 776**, much broader than other classes (P1, P2, P4), affecting classification accuracy.
 - Re-evaluating how credit scores are utilized for P3 could significantly improve model accuracy.
