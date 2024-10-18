@@ -50,7 +50,7 @@ After cleaning the data and selecting relevant features, the focus was on catego
 
 <p float="left">
   <img src="<img width="230" alt="i3" src="https://github.com/user-attachments/assets/b31bde9b-32de-4645-bb3e-8f0414bd037e">  " width="49%" />
-  <img src="<img width="254" alt="i4" src="https://github.com/user-attachments/assets/b1fb27f7-ce35-4c1d-b6c7-66697686c868">" width="49%" />
+  <img width="254" alt="i4" src="https://github.com/user-attachments/assets/81029296-5824-45a5-8f13-3260511b250e">
 </p>
 
 ---
