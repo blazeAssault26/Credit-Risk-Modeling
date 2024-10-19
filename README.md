@@ -52,7 +52,7 @@ After cleaning the data and selecting relevant features, the focus was on catego
 
 <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
   <img style="width: 150px; height: 350px;" alt="i3" src="https://github.com/user-attachments/assets/9e506832-01ba-481b-8577-f91c4136f151" />
-  <img style="width: 150px; height: 300px;" alt="i4" src="https://github.com/user-attachments/assets/b9660c16-4b20-4e8a-a1d9-aff06ab5d838" />
+  <img style="width: 170px; height: 310px;" alt="i4" src="https://github.com/user-attachments/assets/b9660c16-4b20-4e8a-a1d9-aff06ab5d838" />
 </div>
 
 
