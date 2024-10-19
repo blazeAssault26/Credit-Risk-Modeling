@@ -50,10 +50,11 @@ After cleaning the data and selecting relevant features, the focus was on catego
 - **Train accuracy**: 81%
 - **Test accuracy**: 78%
 
-<p style="display: flex; justify-content: space-between;">
-  <img style="width: 300px; height: 200px;" alt="i3" src="https://github.com/user-attachments/assets/9e506832-01ba-481b-8577-f91c4136f151" />
-  <img style="width: 300px; height: 200px;" alt="i4" src="https://github.com/user-attachments/assets/b9660c16-4b20-4e8a-a1d9-aff06ab5d838" />
-</p>
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+  <img style="width: 250px; height: 150px;" alt="i3" src="https://github.com/user-attachments/assets/9e506832-01ba-481b-8577-f91c4136f151" />
+  <img style="width: 250px; height: 150px;" alt="i4" src="https://github.com/user-attachments/assets/b9660c16-4b20-4e8a-a1d9-aff06ab5d838" />
+</div>
+
 
 ---
 
