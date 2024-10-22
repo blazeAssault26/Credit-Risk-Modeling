@@ -220,3 +220,16 @@ xgb_classifier = xgb.XGBClassifier(objective='multi:softmax',
                                    alpha= 10, learning_rate= 1,
                                    max_depth= 3, n_estimators= 100, reg_lambda= 1,  num_class=4, colsample_bytree= 0.3 )
 evaluate_classifier(xgb_classifier, x_train, y_train, x_test, y_test, model_name="XGBoost")
+
+
+# Feature importance and visualization
+
+bst = xgb_classifier.get_booster()
+for importance_type in ('weight', 'gain', 'cover', 'total_gain', 'total_cover'):
+  print('%s: ' %importance_type, bst.get_score(importance_type=importance_type))
+
+node_params = {'shape' : 'box', 'style' : 'filled, rounded', 'fillcolor': ' #78cbe ' }
+leaf_params  ={'shape' : 'box', 'style' : 'filled', 'fillcolor': ' #e48038 '}
+
+graph_data = xgb.to_graphviz(xgb_classifier, num_trees = 0 , size = "10,10", condition_node_params = node_params, leaf_node_params = leaf_params)
+graph_data.view(filename = 'credit_risk_modeling')
