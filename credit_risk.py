@@ -195,7 +195,7 @@ def tune_xgboost(x_train, y_train, x_test, y_test):
         'learning_rate': [0.1, 0.01,1],
         'reg_lambda' : [0,1,10],
         'max_depth': [6, 7, 5],
-        'gamma' : [0, 0.25, 1],
+        'gamma' : [0.25, 1, 2],
         'n_estimators'    : [200, 300, 500],
         'alpha'           : [1, 10, 100]
     }
@@ -217,8 +217,8 @@ tune_xgboost(x_train, y_train, x_test, y_test)
 
 # Evaluate the best model from hyperparameter tuning
 xgb_classifier = xgb.XGBClassifier(objective='multi:softmax',
-                                   alpha= 10, learning_rate= 1,
-                                   max_depth= 3, n_estimators= 100, reg_lambda= 1,  num_class=4, colsample_bytree= 0.3 )
+                                   alpha= 1, learning_rate= 0.1,
+                                   max_depth= 5, n_estimators= 200, reg_lambda= 1,  gamma= 2, num_class=4 )
 evaluate_classifier(xgb_classifier, x_train, y_train, x_test, y_test, model_name="XGBoost")
 
 
