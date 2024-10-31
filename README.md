@@ -1,6 +1,6 @@
 ## Understanding the Problem: What Is Credit Risk?
 
-Credit risk is the possibility of borrowers not repaying loans on time, which is monitored through **Days Past Due (DPD)**. Loans overdue beyond a certain threshold, such as **90 days**, become **Non-Performing Assets (NPAs)**, posing a heightened default risk. **Portfolio at Risk (PAR)** measures the **Outstanding Principal (OSP)** of overdue loans, helping banks manage loan portfolio health.
+Credit risk represents the likelihood of borrowers failing to meet their loan obligations, posing a significant challenge for financial institutions. To mitigate this risk, lenders monitor critical metrics such as **Days Past Due (DPD)**, which tracks overdue payments. Loans that remain unpaid for over 90 days are classified as **Non-Performing Assets (NPAs)**, signifying increased default risk. To evaluate portfolio health, institutions use the **Portfolio at Risk (PAR)** metric, which quantifies the **Outstanding Principal (OSP)** of delinquent loans. This proactive approach empowers banks to implement targeted risk management strategies, effective oversight of lending operations and safeguarding their financial stability.
 
 ### Objective
 The primary goal of this project is to create a predictive model that can:
